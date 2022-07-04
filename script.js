@@ -78,7 +78,6 @@ const askNumbers = () => {
 };
 
 createRndNumbers(1, 100, 5);
-setTimeout(askNumbers, count * 100 + 500);
+setTimeout(askNumbers, count * 1000 + 500);
 
-//Todo Cambiare i ms
-const timer = setInterval(counter, 100);
+const timer = setInterval(counter, 1000);
